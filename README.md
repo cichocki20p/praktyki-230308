@@ -12,3 +12,9 @@ gh auth login
 git add         (staging)
 git commit -m   (commit działa na mojej wersji)
 git push        (push wysyła do repozytorium)
+
+gdybym coś zpushował a zapomniał o dodaniu do poczekalni czegoś:
+    jest komenda na dodanie pliku do ostatniego commita (o ile go nie zpushowałem)
+    $ git commit --amend
+    $ git push
+    powinno się używać tylko jeżeli nie zpushowałem danych
